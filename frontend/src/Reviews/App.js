@@ -3,7 +3,9 @@ import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
 import data from './data';
 import './index.css';
+import features from '/Users/keshavdhanuka01/Desktop/WebGeniousAI-Rental-Management/frontend/src/Features/Features.js'
 function App() {
+  
   const [people, setPeople] = useState(data);
   const [index, setIndex] = React.useState(0);
 
@@ -67,6 +69,7 @@ function App() {
       </div>
     </section>
   );
+  
 }
 
 export default App;

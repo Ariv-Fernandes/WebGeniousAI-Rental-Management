@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Footer.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Navbar from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Navbar.js";
+
+export default function App(){
+  return(
+    
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+    </head>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+    
+
+    <body>
+      
+      <Navbar/>
+      
+     <Footer/>
+
+      
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+    </body>
+    </html>
+
+  )
 }
-
-export default App;

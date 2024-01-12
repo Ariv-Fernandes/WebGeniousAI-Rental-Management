@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter,Route,Routes,Router,Link,NavLink } from "react-router-dom";
-import About from '/Users/keshavdhanuka01/Desktop/myapp/src/AboutUs/page.js';
-import Home from '/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Home.js';
+import About from '../../../AboutUs/page.js';
+import Home from '../../../Homepage/Home.js';
 import Contact from "../../../ContactUs/contact";
-import Reviews from "/Users/keshavdhanuka01/Desktop/myapp/src/ReviewsPage/Reviews.js"
-// import App from '/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/App.js';
+import Reviews from "../../../ReviewsPage/Reviews.js";
+import Services from "../../../Services/services";
+import Profile from "../../../Profile/Profile";
 
 export default function Navbar(){
   const [isVisible, setIsVisible] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar(){
     return(
     <BrowserRouter>
         <nav class="bg-white border-gray-200 dark:bg-gray-800">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
@@ -50,12 +51,11 @@ export default function Navbar(){
           </div>
           <ul className="py-2" aria-labelledby="user-menu-button">
             <li>
-              <a
-                href="#"
+              <Link to="profile"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
               >
-                Dashboard
-              </a>
+                Profile
+              </Link>
             </li>
             <li>
               <a
@@ -119,7 +119,7 @@ export default function Navbar(){
         <Link to="reviews" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</Link>
       </li>
       <li>
-        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+        <Link to="services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
       </li>
       <li>
         <Link to="contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</Link>
@@ -136,6 +136,8 @@ export default function Navbar(){
        <Route path="about" element={<About/>}/>
        <Route path="contact" element={<Contact/>}/>
        <Route path="reviews" element={<Reviews/>}/>
+       <Route path="services" element={<Services/>}/>
+       <Route path="profile" element={<Profile/>}/>
     </Routes>
   </main>
   </BrowserRouter>

@@ -1,4 +1,4 @@
-import image from '/Users/keshavdhanuka01/Desktop/myapp/src/flat-design-illustration-customer-support_23-2148887720-removebg-preview.png'
+import image from '../flat-design-illustration-customer-support_23-2148887720-removebg-preview.png'
 function Contact(){
     return(
         <>

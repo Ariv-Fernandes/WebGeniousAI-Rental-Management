@@ -1,15 +1,14 @@
 import { useState } from 'react'
-import data from '/Users/keshavdhanuka01/Desktop/myapp/src/ReviewsPage/data.js'
+import data from '../ReviewsPage/data.js'
 function Reviews(){
-    // const [isVisible,setIsVisible]=useState(false)
-    //    const { image,name,title,quote } = data[index];
+  
     const [hoveredIndex,setHoveredIndex]=useState(null)
     
     return(
        <section class="bg-white dark:bg-gray-900" style={{backgroundImage:"url('https://img.freepik.com/free-photo/pastel-blue-vignette-concrete-textured-background_53876-102637.jpg?w=1480&t=st=1704698522~exp=1704699122~hmac=480734032febe7ca8d2264f967847ac8af43ea9acdc2af84b06f3916c507a8e5')"}}>
   <div class=" px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6" style={{paddingTop:'3rem', paddingBottom:'3rem'}}>
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our team</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Reviews</h2>
           <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">

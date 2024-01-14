@@ -50,7 +50,7 @@ function Reviews(){
   {/* <Link to="reviews">hello</Link> */}
     <h1 class="font-extrabold text-4xl text-center p-5" style={{margin:'5px'}}>Reviews</h1>
     
-  <div className="w-full justify-center items-center flex relative  bg-blue-700 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{ margin: '8px', width: '1000px'}}>
+  <div className="w-full justify-center items-center flex relative  bg-blue-700 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{ margin: '8px', maxWidth: '1000px' }}>
           <button
           onClick={prevProperty}
             className='prev-btn'

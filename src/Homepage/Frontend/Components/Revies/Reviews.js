@@ -2,9 +2,9 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
 import { useNavigate,Link } from 'react-router-dom';
 // import Reviews from "/Users/keshavdhanuka01/Desktop/myapp/src/ReviewsPage/Reviews.js"
+import data from './data2.js'
 
 
-import data from '/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Revies/data2.js'
 function Reviews(){
     const navigate = useNavigate();
 

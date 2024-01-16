@@ -1,11 +1,11 @@
-import Rent from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Feature.js";
-import Features2 from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Features2.js";
-import Landlord from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/LandlordFeatures.js";
-import Name from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Name.js";
-import Properties from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Properties/Properties.js";
-import Reviews from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Revies/Reviews.js";
-import Search from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Search.js";
-import image from '/Users/keshavdhanuka01/Desktop/myapp/src/istockphoto-1192403701-170667a.webp'
+import Rent from './Frontend/Components/Feature.js';
+import Features2 from './Frontend/Components/Features2.js';
+import Landlord from './Frontend/Components/LandlordFeatures.js';
+import Name from './Frontend/Components/Name.js';
+import Properties from './Frontend/Components/Properties/Properties.js';
+import Reviews from './Frontend/Components/Revies/Reviews.js';
+import Search from './Frontend/Components/Search.js';
+import image from './../istockphoto-1192403701-170667a.webp';
 export default function (){
   
   return(

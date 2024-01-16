@@ -6,6 +6,7 @@ import Contact from "../../../ContactUs/contact";
 import Reviews from "../../../ReviewsPage/Reviews.js";
 import Services from "../../../Services/services";
 import Profile from "../../../Profile/Profile";
+import Messanger from "../../../Message/Messanger.js";
 
 export default function Navbar(){
   const [isVisible, setIsVisible] = useState(false);
@@ -116,7 +117,7 @@ export default function Navbar(){
         <Link to="about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" activeClassName="text-blue-500">About</Link>
       </li>
       <li>
-        <Link to="reviews" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</Link>
+        <Link to="message" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</Link>
       </li>
       <li>
         <Link to="services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
@@ -138,6 +139,7 @@ export default function Navbar(){
        <Route path="reviews" element={<Reviews/>}/>
        <Route path="services" element={<Services/>}/>
        <Route path="profile" element={<Profile/>}/>
+       <Route path="message" element={<Messanger/>}/>
     </Routes>
   </main>
   </BrowserRouter>

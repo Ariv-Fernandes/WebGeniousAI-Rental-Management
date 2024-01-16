@@ -1,6 +1,5 @@
-import Footer from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Footer.js";
-
-import Navbar from "/Users/keshavdhanuka01/Desktop/myapp/src/Homepage/Frontend/Components/Navbar.js";
+import Footer from './Homepage/Frontend/Components/Footer.js';
+import Navbar from './Homepage/Frontend/Components/Navbar.js';
 
 export default function App(){
   return(

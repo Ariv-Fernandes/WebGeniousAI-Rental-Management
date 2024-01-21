@@ -1,5 +1,5 @@
-import Footer from './Homepage/Frontend/Components/Footer.js';
-import Navbar from './Homepage/Frontend/Components/Navbar.js';
+import Footer from './components/Footer.js';
+import Navbar from './components/Navbar.js';
 
 export default function App(){
   return(

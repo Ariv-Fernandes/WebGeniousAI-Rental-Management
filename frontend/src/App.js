@@ -30,6 +30,7 @@ import Signup from "./pages/Signup";
 
 import Admin from "./pages/Adminpage";
 import Navbar from "./components/Navbar";
+import Profile from "./pages/Profile/Profile";
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
               path="/signup"
               element={!user ? <Signup /> : <Navigate to="/" />}
             />
+            <Route path="/profile" element={<Profile/>}></Route>
           </Routes>
         </div>
       </BrowserRouter>

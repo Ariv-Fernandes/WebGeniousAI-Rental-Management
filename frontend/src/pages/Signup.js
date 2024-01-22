@@ -26,7 +26,7 @@ const Signup = () => {
             
             >
               <option value="Admin">Admin</option>
-              <option value="user">User</option>
+              <option value="User">User</option>
             </select>
           
       <label>Email address:</label>

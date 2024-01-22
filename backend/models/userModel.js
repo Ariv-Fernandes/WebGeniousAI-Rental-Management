@@ -9,11 +9,26 @@ const userSchema = new Schema({
     type: String,
     required:true
   },
+  img:{
+    type: String,
+    default:"https://cdn-icons-png.flaticon.com/512/9131/9131529.png"
+  },
   email: {
     type: String,
     required: true,
     unique: true
   },
+  address: {
+    type: String,
+  },
+  mobile: {
+    type:String ,
+    unique: true
+  },
+  gender: {
+    type: String
+  },
+
   password: {
     type: String,
     required: true

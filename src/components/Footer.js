@@ -1,3 +1,4 @@
+import logo from "../asssets/logo.png"
 function Footer(){
   return(
     <div>
@@ -8,20 +9,20 @@ function Footer(){
           <div style={{paddingRight:'2rem'}}>
             <h3 class="text-xl font-bold mb-4">COMPANY</h3>
             <ul class="list-none">
-              <li><a href="#" class="text-gray-300 hover:text-white">About Us</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Careers</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Services</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Contact Us</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Terms & Conditions</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Policy of Use</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Sitemap</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Blog</a></li>
+              <li><a href="/about" class="text-gray-300 hover:text-white">About Us</a></li>
+              {/* <li><a href="#" class="text-gray-300 hover:text-white">Careers</a></li> */}
+              <li><a href="/services" class="text-gray-300 hover:text-white">Services</a></li>
+              <li><a href="/contact" class="text-gray-300 hover:text-white">Contact Us</a></li>
+              <li><a href="/terms" class="text-gray-300 hover:text-white">Terms & Conditions</a></li>
+              {/* <li><a href="#" class="text-gray-300 hover:text-white">Policy of Use</a></li> */}
+              <li><a href="/map" class="text-gray-300 hover:text-white">Sitemap</a></li>
+              {/* <li><a href="#" class="text-gray-300 hover:text-white">Blog</a></li> */}
             </ul>
           </div>
 
           {/* Column 2 */}
           <div>
-            <h3 class="text-xl font-bold mb-4">NETWORK SITES</h3>
+            <h3 class="text-xl font-bold mb-4">PROPERTY</h3>
             <ul class="list-none">
               <li><a href="#" class="text-gray-300 hover:text-white">Square Yards Canada</a></li>
               <li><a href="#" class="text-gray-300 hover:text-white">Square Yards UAE</a></li>
@@ -32,23 +33,27 @@ function Footer(){
 
           {/* Column 3 */}
           <div>
-            <h3 class="text-xl font-bold mb-4">SOLUTIONS</h3>
+            <h3 class="text-xl font-bold mb-4">LOCATION</h3>
             <ul class="list-none">
-              <li><a href="#" class="text-gray-300 hover:text-white">Square Connect</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Prime Connect</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Smart Agent</a></li>
+              <li><a class="text-gray-300">Veermata Jijabai Techhnological Institute</a></li>
+              <li><a class="text-gray-300 ">35/2 Shivaji Road</a></li>
+              <li><a class="text-gray-300 ">Matunga East</a></li>
+              <li><a class="text-gray-300 ">Mumbai-400035</a></li>
+              
               {/* Add more solutions */}
             </ul>
           </div>
 
           {/* Column 4 */}
           <div>
-            <h3 class="text-xl font-bold mb-4">RESOURCES</h3>
+            <h3 class="text-xl font-bold mb-4">DETAILS</h3>
             <ul class="list-none">
-              <li><a href="#" class="text-gray-300 hover:text-white">Data Intelligence</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Square Yards Reviews</a></li>
-              <li><a href="#" class="text-gray-300 hover:text-white">Real Estate Guide</a></li>
-              {/* Add more resources */}
+               <li><a class="text-gray-300 ">Email:webgeniusai@gmail.com</a></li>
+
+               <li><a class="text-gray-300 "><br></br></a></li>
+               <li><a class="text-gray-300 ">Phone: +91 97246 24482,</a></li>
+               <li><a class="text-gray-300 ">       +91 97246 24482</a></li>
+              {/* Add more solutions */}
             </ul>
           </div>
         </div>

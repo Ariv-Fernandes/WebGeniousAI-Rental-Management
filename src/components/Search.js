@@ -28,53 +28,52 @@ function Search(){
        {isVisible && <div id="dropdown" class="absolute left-0 z-20  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700" style={{top:'62px'}}>
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
             <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Shopping</a>
+                <a class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rental</a>
             </li>
             <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Images</a>
+                <a  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PG</a>
             </li>
             <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">News</a>
+                <a  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Studio</a>
             </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Finance</a>
-            </li>
+            
             </ul>
         </div>}
         <div class="relative w-full">
             <input type="search" id="search-dropdown" class="block p-5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg rounded-s-gray-100 rounded-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search" required/>
-            <button type="submit" class="absolute top-0 end-0 p-2.5 h-full text-sm font-medium text-white bg-blue-700 rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            
+            <a href="/properties" type="submit" class="absolute top-0 end-0 p-2.5 h-full text-sm font-medium text-white bg-blue-700 rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg class="w-4 h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-  </svg></button>
+  </svg></a>
         </div>
 
 
 
     </div>
 <div class="flex">
-<ul class="block md:flex items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg  dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+<ul class="block md:flex items-center w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg  dark:bg-gray-700 dark:border-gray-600 dark:text-white" style={{padding:'5px'}}>
     <li class="w-25 border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center ps-3">
             <input id="horizontal-list-radio-license" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="horizontal-list-radio-license" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Driver License </label>
+            <label for="horizontal-list-radio-license" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">1 BHK </label>
         </div>
     </li>
     <li class="w-25 border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center ps-3">
             <input id="horizontal-list-radio-id" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="horizontal-list-radio-id" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">State ID</label>
+            <label for="horizontal-list-radio-id" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">2 BHK</label>
         </div>
     </li>
     <li class="w-25 border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600">
         <div class="flex items-center ps-3">
             <input id="horizontal-list-radio-military" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="horizontal-list-radio-military" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">US Military</label>
+            <label for="horizontal-list-radio-military" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">3 BHK</label>
         </div>
     </li>
     <li class="w-25 dark:border-gray-600">
         <div class="flex items-center ps-3">
             <input id="horizontal-list-radio-passport" type="radio" value="" name="list-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"/>
-            <label for="horizontal-list-radio-passport" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">US Passport</label>
+            <label for="horizontal-list-radio-passport" class="w-20 py-3 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">4+ BHK</label>
         </div>
     </li>
     <form class=" max-w-sm" style={{marginLeft:'2rem', marginRight:'2rem', width:'300px'}}>

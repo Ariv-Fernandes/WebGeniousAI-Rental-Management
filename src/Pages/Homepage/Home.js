@@ -5,7 +5,7 @@ import Name from '../../components/Name.js';
 import Properties from '../../components/Properties/Properties.js';
 import Reviews from '../../components/Revies/Reviews.js';
 import Search from '../../components/Search.js';
-import image from '../../istockphoto-1192403701-170667a.webp';
+import image from '../../asssets/istockphoto-1192403701-612x612.jpg';
 export default function (){
   
   return(
@@ -23,7 +23,7 @@ export default function (){
     <body>
       
       {/* <Navbar/> */}
-      <div className="bg-cover bg-center py-10"  style={{ backgroundImage: `url(${image})` }}>
+      <div className="bg-cover bg-center py-10"  style={{ backgroundImage: `url(${image})`, backgroundSize:'cover',backgroundRepeat: 'no-repeat'}}>
       <Name/>
      <Search/>
      </div>

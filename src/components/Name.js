@@ -1,8 +1,8 @@
 function Name(){
 return(
     <div class="my-20 h-60 ">
-        <h1 class="font-bold px-10 pt-10 pb-8 mb-10 mx-10 text-center  text-6xl">Lorem ipsum dolor sit amet.</h1>
-        <p class="text-center my-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum soluta dolor quam. Vero, facilis delectus enim ducimus maxime quo ut.</p>
+        <h1 class="font-bold px-10  pb-8 mb-10 mx-10 text-center  text-6xl" style={{paddingTop:'4.5rem'}}>Discover Your Dream Home with Ease</h1>
+        <p class="text-center my-10">Discover curated listings and trusted professionals for a seamless home-buying experience.Your dream home is just a click away. </p>
     </div>
 )
 }

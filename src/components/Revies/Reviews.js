@@ -98,7 +98,7 @@ function Reviews(){
         <p class="text-2xl font-semibold text-white dark:text-white">{quote}</p>
     
     <figcaption class="flex items-center mt-6 space-x-3 rtl:space-x-reverse" style={{marginBottom:'2rem'}}>
-        <img class="w-6 h-6 rounded-full" src={image} alt="profile picture"/>
+        <img class="w-10 h-10 rounded-full" src={image} alt="profile picture"/>
         <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-300 dark:divide-gray-700 ">
             <cite class="pe-3 font-medium text-blue-100 dark:text-white">{name}</cite>
             <cite class="ps-3 text-sm text-gray-200 dark:text-gray-400">{title}</cite>

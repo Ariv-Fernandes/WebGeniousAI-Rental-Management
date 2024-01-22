@@ -1,8 +1,13 @@
+import img1 from "../../asssets/profile1.avif"
+import img2 from "../../asssets/profile2.jpeg"
+import img3 from "../../asssets/profile3.jpeg"
+import img4 from "../../asssets/profile4.avif"
+
 const people = [
   {
     id: 1,
     stars:3,
-    image: 'https://www.course-api.com/images/people/person-1.jpeg',
+    image: img1,
     name: 'maria ferguson',
     title: 'office manager',
     quote:
@@ -11,7 +16,7 @@ const people = [
   {
     id: 2,
     stars:4,
-    image: 'https://www.course-api.com/images/people/person-4.jpeg',
+    image: img2,
     name: 'john doe',
     title: 'regular guy',
     quote:
@@ -20,7 +25,7 @@ const people = [
   {
     id: 3,
     stars:1,
-    image: 'https://www.course-api.com/images/people/person-3.jpeg',
+    image: img3,
     name: 'peter smith',
     title: 'product designer',
     quote:
@@ -29,7 +34,7 @@ const people = [
   {
     id: 4,
     stars:5,
-    image: 'https://www.course-api.com/images/people/person-2.jpeg',
+    image: img4,
     name: 'susan andersen',
     title: 'the boss',
     quote:

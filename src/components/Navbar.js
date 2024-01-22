@@ -7,6 +7,7 @@ import Reviews from "../Pages/ReviewsPage/Reviews.js";
 import Services from "../Pages/Services/services";
 import Profile from "../Pages/Profile/Profile";
 import logo from "../asssets/logo.png"
+import Terms from "../Pages/Terms&Condition/page.js";
 export default function Navbar(){
   const [isVisible, setIsVisible] = useState(false);
 
@@ -138,6 +139,7 @@ export default function Navbar(){
        <Route path="reviews" element={<Reviews/>}/>
        <Route path="services" element={<Services/>}/>
        <Route path="profile" element={<Profile/>}/>
+       <Route path="terms&condition" element={<Terms/>}/>
        
     </Routes>
   </main>

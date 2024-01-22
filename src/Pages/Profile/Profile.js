@@ -21,10 +21,7 @@ export default function Profile(){
              
 
 <div class=" w-full max-w-screen-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{marginTop:'40px', marginBottom:'40px'}}>
-    <div class="flex justify-end px-4 pt-4">
-        
-        
-    </div>
+    
     <div class="flex flex-col items-center " style={{justifyContent:'center'}}>
         <img class="mb-3 rounded-full shadow-lg" src="https://www.course-api.com/images/people/person-1.jpeg" alt="Bonnie image" style={{width:'12rem', height:'12rem', margin:'15px'}}/>
         <h5 class="mb-1 text-2xl font-semibold text-gray-900 dark:text-white">Bonnie Green</h5>

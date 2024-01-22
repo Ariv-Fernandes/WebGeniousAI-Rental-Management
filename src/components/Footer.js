@@ -13,7 +13,7 @@ function Footer(){
               {/* <li><a href="#" class="text-gray-300 hover:text-white">Careers</a></li> */}
               <li><a href="/services" class="text-gray-300 hover:text-white">Services</a></li>
               <li><a href="/contact" class="text-gray-300 hover:text-white">Contact Us</a></li>
-              <li><a href="/terms" class="text-gray-300 hover:text-white">Terms & Conditions</a></li>
+              <li><a href="/terms&condition" class="text-gray-300 hover:text-white">Terms & Conditions</a></li>
               {/* <li><a href="#" class="text-gray-300 hover:text-white">Policy of Use</a></li> */}
               <li><a href="/map" class="text-gray-300 hover:text-white">Sitemap</a></li>
               {/* <li><a href="#" class="text-gray-300 hover:text-white">Blog</a></li> */}

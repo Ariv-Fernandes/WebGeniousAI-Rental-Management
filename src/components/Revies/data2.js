@@ -8,37 +8,37 @@ const people = [
     id: 1,
     stars:3,
     image: img1,
-    name: 'maria ferguson',
+    name:'john doe' ,
     title: 'office manager',
     quote:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache jnb cdjc jdnckjd cdnkc odncj c dnciuenw w x.',
+      'The real estate team at [Website Name] made my home-buying journey incredibly smooth. From property search to closing the deal, their professionalism and dedication were commendable. I highly recommend their services for a stress-free real estate experience.',
   },
   {
     id: 2,
     stars:4,
     image: img2,
-    name: 'john doe',
+    name: 'maria ferguson',
     title: 'regular guy',
     quote:
-      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami eubdiebdfej dejundiuend kjend jencienje .',
+      'The responsiveness and knowledge of the agents at [Website Name] stood out to me. They promptly addressed all my queries, provided valuable insights into the local market, and guided me through every step of the home-buying process. A trustworthy team indeed!',
   },
   {
     id: 3,
     stars:1,
     image: img3,
-    name: 'peter smith',
+    name: 'susan jacobs',
     title: 'product designer',
     quote:
-      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo edneiubdejd eodji3n2s ge deoune xwn.',
+      'Renting through [Website Name] was a breeze. The user-friendly interface allowed me to browse listings easily, and the communication with the property management team was efficient. I appreciate the transparency and professionalism demonstrated throughout the rental process.',
   },
   {
     id: 4,
     stars:5,
     image: img4,
-    name: 'susan andersen',
+    name: 'peter smith',
     title: 'the boss',
     quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag jdbebfej dwjnsiubdj nsiwbshw sjwn. ',
+      'The customer service at [Website Name] exceeded my expectations. The staff was not only knowledgeable but also genuinely invested in helping me find the right property. Their commitment to customer satisfaction sets them apart in the real estate industry. Highly recommended',
   },
 ];
 

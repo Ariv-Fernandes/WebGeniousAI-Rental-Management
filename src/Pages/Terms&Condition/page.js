@@ -3,7 +3,7 @@ export default function Terms(){
     return(
     //     <div>
     // <div class=" w-fitbg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{margin:'45px',width:'70%'}}>
-    <div className="flex" style={{backgroundImage:{img}, justifyContent:'center',backgroundSize:'cover'}}>
+    <div className="flex" style={{backgroundImage:`url(${img})`, justifyContent:'center',backgroundSize:'cover'}}>
              
 
 <div class=" w-full max-w-screen-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{marginTop:'40px', marginBottom:'40px'}}>

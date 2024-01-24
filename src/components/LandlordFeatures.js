@@ -1,9 +1,10 @@
 import img from "../asssets/select-house-concept-illustration_114360-4437-removebg-preview.png"
+import bg from "../asssets/abstract-bright-light-background_23-2148897536.avif"
 
 function Landlord(){
     return(
     <div class=" w-fitbg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{margin:'25px'}}>
-    <section class="bg-white dark:bg-gray-900" style={{backgroundImage:"url('https://img.freepik.com/free-vector/abstract-bright-light-background_23-2148897536.jpg?w=1480&t=st=1704449278~exp=1704449878~hmac=49874649f36b1ac2d4af2f104de774ede619c37f7b5970f31c8cf28b2e2a2015)"}}>
+    <section class="bg-white dark:bg-gray-900" style={{backgroundImage:`url(${bg})`}}>
     <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Property Listing made easy</h1>

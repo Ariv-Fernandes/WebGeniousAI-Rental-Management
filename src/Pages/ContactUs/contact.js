@@ -1,4 +1,7 @@
 import image from '../../asssets/flat-design-illustration-customer-support_23-2148887720-removebg-preview.png'
+import loc from "../../asssets/location.png"
+import call from "../../asssets/callus.png"
+import email from "../../asssets/emial.png"
 function Contact(){
     return(
         <>
@@ -41,14 +44,16 @@ function Contact(){
       
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3" style={{paddingTop:'5px'}}>
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 rounded-full" src="https://cdn-icons-png.flaticon.com/128/11087/11087340.png?ga=GA1.1.1255800410.1704448219&semt=ais" alt="Location" style={{width:'6rem', height:'6rem'}}/>
+              <img class="mx-auto mb-4 rounded-full" src={loc} alt="Location" style={{width:'6rem', height:'6rem'}}/>
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Location</a>
               </h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi mollitia voluptas dignissimos. Nam, sed earum.</p>
+              <p>Veermata Jijabai Technological Institute,</p>
+              <p>Matunga-East,</p>
+              <p>Mumbai-400064</p>
             </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4  rounded-full" src="https://cdn-icons-png.flaticon.com/128/7044/7044607.png?ga=GA1.1.1255800410.1704448219&semt=ais" alt="Bonnie Avatar" style={{width:'6rem', height:'6rem'}}/>
+              <img class="mx-auto mb-4  rounded-full" src={call} alt="Bonnie Avatar" style={{width:'6rem', height:'6rem'}}/>
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Call Us</a>
               </h3>
@@ -56,7 +61,7 @@ function Contact(){
               <p>+91 8473964926</p>
             </div>
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 rounded-full" src="https://cdn-icons-png.flaticon.com/128/9068/9068635.png?ga=GA1.1.1255800410.1704448219&semt=ais" alt="Bonnie Avatar" style={{width:'6rem', height:'6rem'}}/>
+              <img class="mx-auto mb-4 rounded-full" src={email} alt="Bonnie Avatar" style={{width:'6rem', height:'6rem'}}/>
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">Email</a>
               </h3>

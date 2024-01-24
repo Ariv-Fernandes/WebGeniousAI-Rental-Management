@@ -1,4 +1,5 @@
 import { useState } from "react"
+import bg from "../../asssets/profile-bg.avif"
 
 export default function Profile(){
     const [buttonText,setText]=useState("Edit profile")
@@ -17,7 +18,7 @@ export default function Profile(){
     }
     
     return(
-        <div className="flex" style={{backgroundImage:"url('https://img.freepik.com/premium-vector/vector-illustration-eps-10-skyscrapers-with-copy-space_554888-974.jpg?size=626&ext=jpg&ga=GA1.1.1255800410.1704448219&semt=ais')", justifyContent:'center'}}>
+        <div className="flex" style={{backgroundImage:`url(${bg})`, justifyContent:'center'}}>
              
 
 <div class=" w-full max-w-screen-md bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{marginTop:'40px', marginBottom:'40px'}}>

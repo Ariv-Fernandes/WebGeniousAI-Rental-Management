@@ -1,3 +1,7 @@
+import pic1 from "../../asssets/features1.avif"
+import pic2 from "../../asssets/features2.avif"
+import pic3 from "../../asssets/features3.avif"
+
 function Services(){
 
     return(
@@ -12,7 +16,7 @@ function Services(){
 
               <div class="max-w-sm bg-white border border-red-600  shadow dark:bg-gray-800 dark:border-gray-700" style={{borderWidth:'4px'}}>
                   <a href="#">
-                  <img class="rounded-t-lg" src="https://img.freepik.com/free-vector/illustrated-real-estate-searching-concept_23-2148652423.jpg?w=1480&t=st=1704879060~exp=1704879660~hmac=6e4e351b9c49718e0f4cbdf05b370d86e92450c7ea75207071bf108019a0fc55" alt="" />
+                  <img class="rounded-t-lg" src={pic1} alt="" />
                   </a>
                   <div class="p-5">
                       <a href="#">
@@ -23,7 +27,7 @@ function Services(){
               </div>
               <div class="max-w-sm bg-white border border-blue-600  shadow dark:bg-gray-800  " style={{borderWidth:'4px'}}>
                   <a href="#">
-                  <img class="rounded-t-lg" src="https://img.freepik.com/free-vector/real-estate-agency-property-selling-buying-financial-consulting_335657-3145.jpg?w=1480&t=st=1704879324~exp=1704879924~hmac=e3cbbe84a1c7388ccbfca9559e4edbd61c08b8e50693a7f73a4b591af0b11ae9" alt="" />
+                  <img class="rounded-t-lg" src={pic2} alt="" />
                   </a>
                   <div class="p-5">
                       <a href="#">
@@ -34,7 +38,7 @@ function Services(){
               </div>
               <div class="max-w-sm bg-white border border-yellow-300 shadow dark:bg-gray-800 dark:border-yellow-400" style={{borderWidth:'4px'}}>
                   <a href="#">
-                  <img class="rounded-t-lg" src="https://img.freepik.com/free-vector/urban-real-estate-searching-concept_23-2148652965.jpg?w=1480&t=st=1704879460~exp=1704880060~hmac=f030cdd18d4504c91aa1bd3cb68a51582b2bd790831decb462db692d51f2c8b7" alt="" />
+                  <img class="rounded-t-lg" src={pic3} alt="" />
                   </a>
                   <div class="p-5">
                       <a href="#">
@@ -108,7 +112,7 @@ function Services(){
 </section>
 </div>
           <div className="flex justify-center items-center" style={{paddingBottom:'45px', marginRight:'300px'}}>
-          <section class=" bg-pink-300 border border-blue-600 rounded-lg  shadow dark:bg-gray-800  " style={{width:'900px'}}>
+          <section class=" bg-pink-300 border border-blue-600 rounded-lg  shadow dark:bg-gray-800  " style={{width:'900px',borderColor:'black', borderWidth:'2px'}}>
     <div class=" flex max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 ">
         <div class=" place-self-center" style={{marginRight:'30px'}}>
             <h1 class="max-w-2xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">Payments tool for software companies</h1>

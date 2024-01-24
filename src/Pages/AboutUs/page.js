@@ -1,4 +1,6 @@
 import { useState } from "react";
+import pic from "../../asssets/aboutus-removebg-preview.png"
+import bg from "../../asssets/aboutus-bg.jpeg"
 function About(){
     const [isVisible, setIsVisible] = useState(false);
 
@@ -7,7 +9,7 @@ function About(){
     setIsVisible(true);
   };
     return(
-        <div style={{backgroundImage:"url('https://b.rgbimg.com/users/z/ze/zela/600/mLXsV3U.jpg')"}} >
+        <div style={{backgroundImage:`url(${bg})`,backgroundSize:'cover'}} >
             <div class=" w-fitbg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" >
             <section class="bg-white dark:bg-gray-900">
     <div class="grid max-w-screen-xl px-4 py-8 mx-10 lg:gap-8 xl:gap-0  lg:grid-cols-12" style={{margin:'25px'}}>
@@ -23,7 +25,7 @@ function About(){
             
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-18752.jpg?w=996&t=st=1704528337~exp=1704528937~hmac=db2af3fdd713ba658c845599d66dcffc19835806ecc75e7f7ce2c67063a376a3" alt="mockup"/>
+            <img src={pic} alt="mockup"/>
         </div>                
     </div>
 </section>

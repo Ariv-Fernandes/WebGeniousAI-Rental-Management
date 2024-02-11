@@ -1,4 +1,4 @@
-import {PropertyContext} from '../components/PropertyContext'
+import {PropertyContext} from '../contexts/PropertyContext'
 import { useContext } from 'react'
 
 

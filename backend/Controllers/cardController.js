@@ -23,26 +23,29 @@ const getCard=async(req,res)=>{
 
 // Create a Card
 const createCard=async (req,res)=>{
-    const { id,name, img, location,area,star,tag,price}=req.body;
+    const { id,name, img, location,area,star,tag,price,description}=req.body;
     try {
-        const card=await Cardmodel.create({ id,name, img, location,area,star,tag,price})
+        const card=await Cardmodel.create({ id,name, img, location,area,star,tag,price,description})
         res.json(card).status(200)
     } catch (error) {
         res.status(400).json({error:error.mesage})
     }
-    res.json({mssg:"Post a New Card"})
+    // res.json({mssg:"Post a New Card"})
 }
 // Delete a Card
 const deleteCard=async(req,res)=>{
     const {id}=req.params
     if(!mongoose.Types.ObjectId.isValid(id)){
         return res.status(404).json({error:"No Such Card Exists"})
+      
     }
     const Card=await Cardmodel.findOneAndDelete({_id:id})
     if(!Card){
         return res.status(404).json({error:"No such Cards exists"})
+       
     }
     res.status(200).json(Card);
+
     console.log("Request for delete");
 }
 
@@ -52,14 +55,16 @@ const updateCard=async(req,res)=>{
     const {id}=req.params
     if(!mongoose.Types.ObjectId.isValid(id)){
         return res.status(404).json({error:"No Such Card Exists"})
+      
     }
     const Card=await Cardmodel.findOneAndUpdate({_id:id},{
         ...req.body
     })
     if(!Card){
         return res.status(404).json({error:"No such Cards exists"})
+       
     }
-    res.status(200).json(Card);
+    res.json(Card).status(200);
 }
 
 export  {getCard,getCards,createCard,deleteCard,updateCard};

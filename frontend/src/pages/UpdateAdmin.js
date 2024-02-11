@@ -1,7 +1,7 @@
 import React from 'react'
 import { usePropetiesContext } from '../hooks/usePropertyContext';
 import { useEffect, useState } from 'react';
-import Card from './Card'
+import Card from '../components/Card'
 import { useNavigate } from "react-router-dom";
 
 function UpdateAdmin() {
